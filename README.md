@@ -1,8 +1,8 @@
 # VectorShift Frontend Technical Assessment
 
-```markdown
+
  ![Demo feature](vectorShift.gif)
- ```
+
 
 This project is a frontend technical assessment for VectorShift, consisting of a React frontend and a FastAPI backend. The application allows users to build and visualize pipelines using a node-based interface and interact with a backend API to analyze the constructed pipelines.
 
