@@ -10,7 +10,7 @@ app = FastAPI()
 # Allow all origins for development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://spiffy-platypus-c89cbe.netlify.app/"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
