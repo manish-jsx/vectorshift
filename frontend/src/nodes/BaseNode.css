@@ -1,0 +1,28 @@
+/* /frontend/src/nodes/BaseNode.css */
+.node {
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 12px;
+}
+
+.node-header {
+    margin-bottom: 5px;
+}
+
+.node-content {
+    padding-top: 10px;
+}
+
+.node.input {
+    border: 1px solid blue; /* Example style for input nodes */
+}
+
+.node.output {
+    border: 1px solid red; /* Example style for output nodes */
+}
+
+.node.text textarea{
+    resize: none;
+}
+/* Add more specific styles for other node types as needed */
